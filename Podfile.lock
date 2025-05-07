@@ -1,0 +1,16 @@
+PODS:
+  - SKCurrencyPickerView (1.0.0)
+
+DEPENDENCIES:
+  - SKCurrencyPickerView (from `SKCurrencyPicker/.`)
+
+EXTERNAL SOURCES:
+  SKCurrencyPickerView:
+    :path: SKCurrencyPicker/.
+
+SPEC CHECKSUMS:
+  SKCurrencyPickerView: 457bbd6b949f03636890a2990b80291e66945856
+
+PODFILE CHECKSUM: c4922ee78fe75362ceaeb11cecc97b83641e3928
+
+COCOAPODS: 1.16.2
