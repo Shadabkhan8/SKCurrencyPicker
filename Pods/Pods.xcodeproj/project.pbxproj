@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02ABBDC07C5AA5B4B12DCEA21140DF77 /* CountryPickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD20664F43299CC654807648A2F83E7 /* CountryPickerViewCell.swift */; };
-		1CC9984B6BAB26ABF94BF310DB953CC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
-		1E85CCE1257D11A67E7F6FC2C7433AA2 /* countries+states.json in Resources */ = {isa = PBXBuildFile; fileRef = 07D2DD645F801F23560A4DD9F28FBC4C /* countries+states.json */; };
-		3672A4A3493311F0453C8F88F1B24A5D /* CurrencyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27615A01B4228D6F46D631289BB72A05 /* CurrencyPickerView.swift */; };
-		51C8CE8F3CE4D12389B8B4B617B541D5 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3CAD308F4F07BF50FA28FC648CFC7 /* SearchBarView.swift */; };
-		56C0371CC1867834A02F910662757A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
-		5AD8E0A92509FA79CBF0018DCE2A489E /* SKCurrencyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C072C1DB48C783B3B8B695A9C891EEF /* SKCurrencyPickerView.swift */; };
-		74311FF0A493E3F804CF5B41C5BD0BBD /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD0843DCDC8645F4F1FBE046063420B /* CurrencyViewModel.swift */; };
+		05618069C6E5843DF4B758396693B618 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */; };
+		0EB59436BCCB0A9C3A4540774F4CF534 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 28CD1E92EB158A3398D5E89650E60F3C /* PrivacyInfo.xcprivacy */; };
+		21290770C065BB39566AB911B810DD51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		4764C229D145823003D7AD610DB5C411 /* countries+states.json in Resources */ = {isa = PBXBuildFile; fileRef = E1FFFC71C2C9895B317D32CC190DE682 /* countries+states.json */; };
+		57EBB8F259F88E4C9FAE1DB019900C9A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF33772ED7ED27E5798D6AE7DBF7C4D /* SearchBarView.swift */; };
 		751A50B472FE94C217C54137D711C9E6 /* Pods-CurrencyPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 095C00C80FFF8E3FF8EBC7571A8620C0 /* Pods-CurrencyPicker-dummy.m */; };
 		787E614EAE11D0A5D83936D311078ABF /* Pods-CurrencyPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9276EA589C715462FC690A71D73793A3 /* Pods-CurrencyPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C16083A77404D56E969E51ED49C97311 /* SKCurrencyPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16D248DF64AC9EF31E19123D5B9150C6 /* SKCurrencyPickerView-dummy.m */; };
-		C2018391F014056B9ECF0AEFA2C90436 /* SKCurrencyPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A369FDB70D7A0311425FD1C7DCF70454 /* SKCurrencyPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C80216D3889BB691B3A87F05C1BB643E /* ModelCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF664E622BC6BAD9E48AB3ABA3E62EB /* ModelCurrency.swift */; };
-		DDF645DF6C00E1A2A7F733F06E227A6D /* PickerOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6718338E6576714DC20A6F5D4595F303 /* PickerOrientation.swift */; };
+		8624933B5572161B879D117FA783161B /* CurrencyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F0A57AE053E59640200DEA46F08FAE /* CurrencyPickerView.swift */; };
+		99DC27F4D58E5F5347139ECAEB3DF68A /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9BFED45A5F83167026FE83F38A8D52 /* CurrencyViewModel.swift */; };
+		A28C7AB336684ED01BFB82EC0A63A4B9 /* SKCurrencyPickerView-SKCurrencyPicker in Resources */ = {isa = PBXBuildFile; fileRef = 76C700BAB3C8919F875CCB254DC1BB0F /* SKCurrencyPickerView-SKCurrencyPicker */; };
+		A7CF11A7B9FF74B698DB77EADA277B59 /* SKCurrencyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C6AC6A9A5B74B24A443024A415DFB /* SKCurrencyPickerView.swift */; };
+		B9EB6C0F0B7743674E368D682B47BC5F /* SKCurrencyPickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB5E8829A78490A56D80618ED601BFA /* SKCurrencyPickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC10D789037980C98AC8D3EB35ECCD4B /* CountryPickerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAD204B0B87FA97CAED25FF38E08898 /* CountryPickerViewCell.swift */; };
+		CCCAE52B8E3FAE208B2D2EF238241CF6 /* PickerOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D504E71EF213149AFB1FD2A8D5A0F3 /* PickerOrientation.swift */; };
 		EFE4833EB8625BA1E04BACF8CE5C794D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */; };
+		F39DC2EE94E9602A3EAB7C91CCE8DC91 /* ModelCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0506C6C751BA316F2A9121786F211D68 /* ModelCurrency.swift */; };
+		FF9551CA9A0B2BEA2A1D5BB34D07DB11 /* SKCurrencyPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2D0B0D391DF7618CB2713B1D640CF5 /* SKCurrencyPickerView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5F7D7EEAC5FB5541952F0034C3CB43FD /* PBXContainerItemProxy */ = {
+		640A781E5C07073565F1A0D002F1787A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C7B4F06EE0450A52042203434BE4BC1;
+			remoteInfo = "SKCurrencyPickerView-SKCurrencyPicker";
+		};
+		D3BDC74AC9532925CB6D0146152E4416 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,45 +44,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		024CCB9C280C43306F12B9AACFADA7A1 /* SKCurrencyPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKCurrencyPickerView.modulemap; sourceTree = "<group>"; };
-		07D2DD645F801F23560A4DD9F28FBC4C /* countries+states.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "countries+states.json"; path = "Resources/countries+states.json"; sourceTree = "<group>"; };
+		0506C6C751BA316F2A9121786F211D68 /* ModelCurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelCurrency.swift; sourceTree = "<group>"; };
 		095C00C80FFF8E3FF8EBC7571A8620C0 /* Pods-CurrencyPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CurrencyPicker-dummy.m"; sourceTree = "<group>"; };
-		16D248DF64AC9EF31E19123D5B9150C6 /* SKCurrencyPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKCurrencyPickerView-dummy.m"; sourceTree = "<group>"; };
-		27615A01B4228D6F46D631289BB72A05 /* CurrencyPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CurrencyPickerView.swift; sourceTree = "<group>"; };
-		3C072C1DB48C783B3B8B695A9C891EEF /* SKCurrencyPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SKCurrencyPickerView.swift; sourceTree = "<group>"; };
-		48F3CAD308F4F07BF50FA28FC648CFC7 /* SearchBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		1F9BFED45A5F83167026FE83F38A8D52 /* CurrencyViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
+		28CD1E92EB158A3398D5E89650E60F3C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2FB5E8829A78490A56D80618ED601BFA /* SKCurrencyPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKCurrencyPickerView-umbrella.h"; sourceTree = "<group>"; };
+		42A79B3D9D3B23C2595CA64310362316 /* SKCurrencyPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKCurrencyPickerView-Info.plist"; sourceTree = "<group>"; };
 		4CE470C54FC57EA8B4A74604179C9AFD /* Pods-CurrencyPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CurrencyPicker.modulemap"; sourceTree = "<group>"; };
 		5F5FDAFCF7491DED428F097263306CE3 /* Pods-CurrencyPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CurrencyPicker.release.xcconfig"; sourceTree = "<group>"; };
-		6718338E6576714DC20A6F5D4595F303 /* PickerOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PickerOrientation.swift; sourceTree = "<group>"; };
-		67741B19B963D1F962ACA0C13B039868 /* SKCurrencyPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKCurrencyPickerView-prefix.pch"; sourceTree = "<group>"; };
-		6AE7C37C0E74769F7D32BA823CD8FDDC /* SKCurrencyPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKCurrencyPickerView.debug.xcconfig; sourceTree = "<group>"; };
-		750A82B7573F305076B843DD09ABA8D7 /* SKCurrencyPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKCurrencyPickerView.release.xcconfig; sourceTree = "<group>"; };
+		76C700BAB3C8919F875CCB254DC1BB0F /* SKCurrencyPickerView-SKCurrencyPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SKCurrencyPickerView-SKCurrencyPicker"; path = SKCurrencyPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B8F4A5A79A76BF7579FCB0247011C4 /* SKCurrencyPickerView.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = SKCurrencyPickerView.podspec.json; sourceTree = "<group>"; };
 		79A29EA8F3A28F81EB4D6ABC6BF52D24 /* Pods-CurrencyPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CurrencyPicker-acknowledgements.plist"; sourceTree = "<group>"; };
-		7DF664E622BC6BAD9E48AB3ABA3E62EB /* ModelCurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelCurrency.swift; sourceTree = "<group>"; };
 		8193349D819536E58C58A34C1B7DF545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		89A35A7F91C9B85343A0F9F3FFF4534C /* Pods-CurrencyPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CurrencyPicker-Info.plist"; sourceTree = "<group>"; };
 		8AAB2395C80BE83FA1FFAD7BD2DDD869 /* SKCurrencyPickerView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKCurrencyPickerView; path = SKCurrencyPickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF33772ED7ED27E5798D6AE7DBF7C4D /* SearchBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		9276EA589C715462FC690A71D73793A3 /* Pods-CurrencyPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CurrencyPicker-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A369FDB70D7A0311425FD1C7DCF70454 /* SKCurrencyPickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKCurrencyPickerView-umbrella.h"; sourceTree = "<group>"; };
+		9F2D0B0D391DF7618CB2713B1D640CF5 /* SKCurrencyPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKCurrencyPickerView-dummy.m"; sourceTree = "<group>"; };
+		A2D504E71EF213149AFB1FD2A8D5A0F3 /* PickerOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PickerOrientation.swift; sourceTree = "<group>"; };
 		A80E1279960738F67432656F122FFFC1 /* Pods-CurrencyPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CurrencyPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE808EB90C7DD2B01094A40AB8239BD0 /* SKCurrencyPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKCurrencyPickerView-prefix.pch"; sourceTree = "<group>"; };
 		B2EE663A66835FEF064AD06FE645D6A1 /* Pods-CurrencyPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CurrencyPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		B5F0A57AE053E59640200DEA46F08FAE /* CurrencyPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CurrencyPickerView.swift; sourceTree = "<group>"; };
+		B9ED96F29D8BE80C94A8D40A66C797F9 /* SKCurrencyPickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKCurrencyPickerView.modulemap; sourceTree = "<group>"; };
 		C2D1CE8FE5DBBA4F2E74A687D15CC1F9 /* Pods-CurrencyPicker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CurrencyPicker-frameworks.sh"; sourceTree = "<group>"; };
-		D595B1E5882542CCF6627C63E77278A9 /* SKCurrencyPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKCurrencyPickerView-Info.plist"; sourceTree = "<group>"; };
-		DAC7AA1CAF96660DD974B2A8432BA174 /* SKCurrencyPickerView.podspec.json */ = {isa = PBXFileReference; includeInIndex = 1; path = SKCurrencyPickerView.podspec.json; sourceTree = "<group>"; };
-		ECD20664F43299CC654807648A2F83E7 /* CountryPickerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryPickerViewCell.swift; sourceTree = "<group>"; };
+		CFAD204B0B87FA97CAED25FF38E08898 /* CountryPickerViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CountryPickerViewCell.swift; sourceTree = "<group>"; };
+		D65C6AC6A9A5B74B24A443024A415DFB /* SKCurrencyPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SKCurrencyPickerView.swift; sourceTree = "<group>"; };
+		DEFAD2350ACC8A082343E39B57E796A8 /* SKCurrencyPickerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKCurrencyPickerView.release.xcconfig; sourceTree = "<group>"; };
+		E1FFFC71C2C9895B317D32CC190DE682 /* countries+states.json */ = {isa = PBXFileReference; includeInIndex = 1; name = "countries+states.json"; path = "Resources/countries+states.json"; sourceTree = "<group>"; };
+		E5DC2D805D1560B3F541C783B0AF873D /* ResourceBundle-SKCurrencyPicker-SKCurrencyPickerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SKCurrencyPicker-SKCurrencyPickerView-Info.plist"; sourceTree = "<group>"; };
 		ECF4CA3AF5536D14B4E015504E7AEEC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EDD0843DCDC8645F4F1FBE046063420B /* CurrencyViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
+		EF9571C7C282D867368EC660456181C4 /* SKCurrencyPickerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKCurrencyPickerView.debug.xcconfig; sourceTree = "<group>"; };
 		F8CA01812B3F3FCDC247708B238BEAE9 /* Pods-CurrencyPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CurrencyPicker"; path = Pods_CurrencyPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A9119FB32A88A34E559EAEC1567AC9B /* Frameworks */ = {
+		4380E9E51ABA977B6AED0F673DBA7D31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56C0371CC1867834A02F910662757A31 /* Foundation.framework in Frameworks */,
-				1CC9984B6BAB26ABF94BF310DB953CC1 /* UIKit.framework in Frameworks */,
+				21290770C065BB39566AB911B810DD51 /* Foundation.framework in Frameworks */,
+				05618069C6E5843DF4B758396693B618 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966CD5601D462D73EA1C8626C29F1154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03D881A08FD5C4D3A0D099640FE75F08 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				77B8F4A5A79A76BF7579FCB0247011C4 /* SKCurrencyPickerView.podspec.json */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		0C6E5F4A3B7D47493CCF1B7B37F034EA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,42 +140,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		1E1E86D78EDD43A761739E2EDCE20CE6 /* Pod */ = {
+		3FD827A5B204333B8B488A3981638D6B /* SKCurrencyPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				DAC7AA1CAF96660DD974B2A8432BA174 /* SKCurrencyPickerView.podspec.json */,
+				E1FFFC71C2C9895B317D32CC190DE682 /* countries+states.json */,
+				CFAD204B0B87FA97CAED25FF38E08898 /* CountryPickerViewCell.swift */,
+				B5F0A57AE053E59640200DEA46F08FAE /* CurrencyPickerView.swift */,
+				1F9BFED45A5F83167026FE83F38A8D52 /* CurrencyViewModel.swift */,
+				0506C6C751BA316F2A9121786F211D68 /* ModelCurrency.swift */,
+				A2D504E71EF213149AFB1FD2A8D5A0F3 /* PickerOrientation.swift */,
+				28CD1E92EB158A3398D5E89650E60F3C /* PrivacyInfo.xcprivacy */,
+				8BF33772ED7ED27E5798D6AE7DBF7C4D /* SearchBarView.swift */,
+				D65C6AC6A9A5B74B24A443024A415DFB /* SKCurrencyPickerView.swift */,
+				03D881A08FD5C4D3A0D099640FE75F08 /* Pod */,
+				A50513609668AD4DFA08B6CBFF90C3E6 /* Support Files */,
 			);
-			name = Pod;
+			name = SKCurrencyPickerView;
+			path = ../SKCurrencyPicker;
 			sourceTree = "<group>";
 		};
-		333ADB5C53ACB955E6DACA0337D3734B /* Products */ = {
+		76EDFB50E3160CB18EE38CF12B738B9D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F8CA01812B3F3FCDC247708B238BEAE9 /* Pods-CurrencyPicker */,
-				8AAB2395C80BE83FA1FFAD7BD2DDD869 /* SKCurrencyPickerView */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3B064AB75A01322E1CBD1999EBF316D0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				024CCB9C280C43306F12B9AACFADA7A1 /* SKCurrencyPickerView.modulemap */,
-				16D248DF64AC9EF31E19123D5B9150C6 /* SKCurrencyPickerView-dummy.m */,
-				D595B1E5882542CCF6627C63E77278A9 /* SKCurrencyPickerView-Info.plist */,
-				67741B19B963D1F962ACA0C13B039868 /* SKCurrencyPickerView-prefix.pch */,
-				A369FDB70D7A0311425FD1C7DCF70454 /* SKCurrencyPickerView-umbrella.h */,
-				6AE7C37C0E74769F7D32BA823CD8FDDC /* SKCurrencyPickerView.debug.xcconfig */,
-				750A82B7573F305076B843DD09ABA8D7 /* SKCurrencyPickerView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/SKCurrencyPickerView";
-			sourceTree = "<group>";
-		};
-		4865C9395498EE3F1B0ACB4318737A55 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E873432FC7DBD7A6F3BD6D5EEC2FCA82 /* SKCurrencyPickerView */,
+				3FD827A5B204333B8B488A3981638D6B /* SKCurrencyPickerView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -170,33 +184,41 @@
 			path = "Target Support Files/Pods-CurrencyPicker";
 			sourceTree = "<group>";
 		};
+		A50513609668AD4DFA08B6CBFF90C3E6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5DC2D805D1560B3F541C783B0AF873D /* ResourceBundle-SKCurrencyPicker-SKCurrencyPickerView-Info.plist */,
+				B9ED96F29D8BE80C94A8D40A66C797F9 /* SKCurrencyPickerView.modulemap */,
+				9F2D0B0D391DF7618CB2713B1D640CF5 /* SKCurrencyPickerView-dummy.m */,
+				42A79B3D9D3B23C2595CA64310362316 /* SKCurrencyPickerView-Info.plist */,
+				AE808EB90C7DD2B01094A40AB8239BD0 /* SKCurrencyPickerView-prefix.pch */,
+				2FB5E8829A78490A56D80618ED601BFA /* SKCurrencyPickerView-umbrella.h */,
+				EF9571C7C282D867368EC660456181C4 /* SKCurrencyPickerView.debug.xcconfig */,
+				DEFAD2350ACC8A082343E39B57E796A8 /* SKCurrencyPickerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/SKCurrencyPickerView";
+			sourceTree = "<group>";
+		};
+		BE19C81017095A7151CE68BED320A654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8CA01812B3F3FCDC247708B238BEAE9 /* Pods-CurrencyPicker */,
+				8AAB2395C80BE83FA1FFAD7BD2DDD869 /* SKCurrencyPickerView */,
+				76C700BAB3C8919F875CCB254DC1BB0F /* SKCurrencyPickerView-SKCurrencyPicker */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4865C9395498EE3F1B0ACB4318737A55 /* Development Pods */,
+				76EDFB50E3160CB18EE38CF12B738B9D /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				333ADB5C53ACB955E6DACA0337D3734B /* Products */,
+				BE19C81017095A7151CE68BED320A654 /* Products */,
 				0C6E5F4A3B7D47493CCF1B7B37F034EA /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		E873432FC7DBD7A6F3BD6D5EEC2FCA82 /* SKCurrencyPickerView */ = {
-			isa = PBXGroup;
-			children = (
-				07D2DD645F801F23560A4DD9F28FBC4C /* countries+states.json */,
-				ECD20664F43299CC654807648A2F83E7 /* CountryPickerViewCell.swift */,
-				27615A01B4228D6F46D631289BB72A05 /* CurrencyPickerView.swift */,
-				EDD0843DCDC8645F4F1FBE046063420B /* CurrencyViewModel.swift */,
-				7DF664E622BC6BAD9E48AB3ABA3E62EB /* ModelCurrency.swift */,
-				6718338E6576714DC20A6F5D4595F303 /* PickerOrientation.swift */,
-				48F3CAD308F4F07BF50FA28FC648CFC7 /* SearchBarView.swift */,
-				3C072C1DB48C783B3B8B695A9C891EEF /* SKCurrencyPickerView.swift */,
-				1E1E86D78EDD43A761739E2EDCE20CE6 /* Pod */,
-				3B064AB75A01322E1CBD1999EBF316D0 /* Support Files */,
-			);
-			name = SKCurrencyPickerView;
-			path = ../SKCurrencyPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,17 +232,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5457E601CF727970704A1430436105A /* Headers */ = {
+		869C90607523749D3769BA9D7AC81A0D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2018391F014056B9ECF0AEFA2C90436 /* SKCurrencyPickerView-umbrella.h in Headers */,
+				B9EB6C0F0B7743674E368D682B47BC5F /* SKCurrencyPickerView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		4C7B4F06EE0450A52042203434BE4BC1 /* SKCurrencyPickerView-SKCurrencyPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5EC31348D958D31D88763527B2E9DC2 /* Build configuration list for PBXNativeTarget "SKCurrencyPickerView-SKCurrencyPicker" */;
+			buildPhases = (
+				C71EF9459E514FB84398642D48102778 /* Sources */,
+				966CD5601D462D73EA1C8626C29F1154 /* Frameworks */,
+				5BC2F965D56C0C521CC94F2DFB74D428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SKCurrencyPickerView-SKCurrencyPicker";
+			productName = SKCurrencyPicker;
+			productReference = 76C700BAB3C8919F875CCB254DC1BB0F /* SKCurrencyPickerView-SKCurrencyPicker */;
+			productType = "com.apple.product-type.bundle";
+		};
 		ACADC95633019F10BB189F2816AA8DDE /* Pods-CurrencyPicker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E05437BF537D2D7872D9009FE6E2DEBF /* Build configuration list for PBXNativeTarget "Pods-CurrencyPicker" */;
@@ -233,7 +272,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EC39B72FC1614579A7CDF7DE9B59A456 /* PBXTargetDependency */,
+				D4EF23F89E7CADB24BF4E9187DCBA413 /* PBXTargetDependency */,
 			);
 			name = "Pods-CurrencyPicker";
 			productName = Pods_CurrencyPicker;
@@ -242,16 +281,17 @@
 		};
 		AFCBCFD487596B0B249535CFAB42CB8F /* SKCurrencyPickerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D37BDA69BE696A3430C5D0845F0BB4C2 /* Build configuration list for PBXNativeTarget "SKCurrencyPickerView" */;
+			buildConfigurationList = A974EC721437B359483598F183F1E060 /* Build configuration list for PBXNativeTarget "SKCurrencyPickerView" */;
 			buildPhases = (
-				D5457E601CF727970704A1430436105A /* Headers */,
-				7D5689837E36FA867C1E21BCC4E80EC5 /* Sources */,
-				4A9119FB32A88A34E559EAEC1567AC9B /* Frameworks */,
-				1919A02AF59CFC4788C3BD6D5183B617 /* Resources */,
+				869C90607523749D3769BA9D7AC81A0D /* Headers */,
+				A273576046BFB2E883D67204BDDFF47C /* Sources */,
+				4380E9E51ABA977B6AED0F673DBA7D31 /* Frameworks */,
+				5774A9B9172217CD3F0525CD66BD8D63 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E2400B914B985C7D0AB2888A1FA7F85E /* PBXTargetDependency */,
 			);
 			name = SKCurrencyPickerView;
 			productName = SKCurrencyPickerView;
@@ -278,25 +318,18 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 333ADB5C53ACB955E6DACA0337D3734B /* Products */;
+			productRefGroup = BE19C81017095A7151CE68BED320A654 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				ACADC95633019F10BB189F2816AA8DDE /* Pods-CurrencyPicker */,
 				AFCBCFD487596B0B249535CFAB42CB8F /* SKCurrencyPickerView */,
+				4C7B4F06EE0450A52042203434BE4BC1 /* SKCurrencyPickerView-SKCurrencyPicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1919A02AF59CFC4788C3BD6D5183B617 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E85CCE1257D11A67E7F6FC2C7433AA2 /* countries+states.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3DC6A7CF9AC6C23CA6BFC25F0F85A773 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,21 +337,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5774A9B9172217CD3F0525CD66BD8D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4764C229D145823003D7AD610DB5C411 /* countries+states.json in Resources */,
+				A28C7AB336684ED01BFB82EC0A63A4B9 /* SKCurrencyPickerView-SKCurrencyPicker in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC2F965D56C0C521CC94F2DFB74D428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB59436BCCB0A9C3A4540774F4CF534 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7D5689837E36FA867C1E21BCC4E80EC5 /* Sources */ = {
+		A273576046BFB2E883D67204BDDFF47C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02ABBDC07C5AA5B4B12DCEA21140DF77 /* CountryPickerViewCell.swift in Sources */,
-				3672A4A3493311F0453C8F88F1B24A5D /* CurrencyPickerView.swift in Sources */,
-				74311FF0A493E3F804CF5B41C5BD0BBD /* CurrencyViewModel.swift in Sources */,
-				C80216D3889BB691B3A87F05C1BB643E /* ModelCurrency.swift in Sources */,
-				DDF645DF6C00E1A2A7F733F06E227A6D /* PickerOrientation.swift in Sources */,
-				51C8CE8F3CE4D12389B8B4B617B541D5 /* SearchBarView.swift in Sources */,
-				5AD8E0A92509FA79CBF0018DCE2A489E /* SKCurrencyPickerView.swift in Sources */,
-				C16083A77404D56E969E51ED49C97311 /* SKCurrencyPickerView-dummy.m in Sources */,
+				BC10D789037980C98AC8D3EB35ECCD4B /* CountryPickerViewCell.swift in Sources */,
+				8624933B5572161B879D117FA783161B /* CurrencyPickerView.swift in Sources */,
+				99DC27F4D58E5F5347139ECAEB3DF68A /* CurrencyViewModel.swift in Sources */,
+				F39DC2EE94E9602A3EAB7C91CCE8DC91 /* ModelCurrency.swift in Sources */,
+				CCCAE52B8E3FAE208B2D2EF238241CF6 /* PickerOrientation.swift in Sources */,
+				57EBB8F259F88E4C9FAE1DB019900C9A /* SearchBarView.swift in Sources */,
+				A7CF11A7B9FF74B698DB77EADA277B59 /* SKCurrencyPickerView.swift in Sources */,
+				FF9551CA9A0B2BEA2A1D5BB34D07DB11 /* SKCurrencyPickerView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C71EF9459E514FB84398642D48102778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,55 +390,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EC39B72FC1614579A7CDF7DE9B59A456 /* PBXTargetDependency */ = {
+		D4EF23F89E7CADB24BF4E9187DCBA413 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SKCurrencyPickerView;
 			target = AFCBCFD487596B0B249535CFAB42CB8F /* SKCurrencyPickerView */;
-			targetProxy = 5F7D7EEAC5FB5541952F0034C3CB43FD /* PBXContainerItemProxy */;
+			targetProxy = D3BDC74AC9532925CB6D0146152E4416 /* PBXContainerItemProxy */;
+		};
+		E2400B914B985C7D0AB2888A1FA7F85E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SKCurrencyPickerView-SKCurrencyPicker";
+			target = 4C7B4F06EE0450A52042203434BE4BC1 /* SKCurrencyPickerView-SKCurrencyPicker */;
+			targetProxy = 640A781E5C07073565F1A0D002F1787A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		16E18178B82C34FB4656A8A9703CEBCE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 750A82B7573F305076B843DD09ABA8D7 /* SKCurrencyPickerView.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SKCurrencyPickerView/SKCurrencyPickerView-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SKCurrencyPickerView/SKCurrencyPickerView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SKCurrencyPickerView/SKCurrencyPickerView.modulemap";
-				PRODUCT_MODULE_NAME = SKCurrencyPickerView;
-				PRODUCT_NAME = SKCurrencyPickerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -448,42 +471,37 @@
 			};
 			name = Debug;
 		};
-		7434C8DA7CD62D8BB95B4489981161FB /* Debug */ = {
+		4F9DAFD5BC305624049A9ABE44DCB4EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AE7C37C0E74769F7D32BA823CD8FDDC /* SKCurrencyPickerView.debug.xcconfig */;
+			baseConfigurationReference = DEFAD2350ACC8A082343E39B57E796A8 /* SKCurrencyPickerView.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SKCurrencyPickerView/SKCurrencyPickerView-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SKCurrencyPickerView/SKCurrencyPickerView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SKCurrencyPickerView";
+				IBSC_MODULE = SKCurrencyPickerView;
+				INFOPLIST_FILE = "Target Support Files/SKCurrencyPickerView/ResourceBundle-SKCurrencyPicker-SKCurrencyPickerView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SKCurrencyPickerView/SKCurrencyPickerView.modulemap";
-				PRODUCT_MODULE_NAME = SKCurrencyPickerView;
-				PRODUCT_NAME = SKCurrencyPickerView;
+				PRODUCT_NAME = SKCurrencyPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.9;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		822E7E7DF62999A7977C156F1DBA23B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9571C7C282D867368EC660456181C4 /* SKCurrencyPickerView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SKCurrencyPickerView";
+				IBSC_MODULE = SKCurrencyPickerView;
+				INFOPLIST_FILE = "Target Support Files/SKCurrencyPickerView/ResourceBundle-SKCurrencyPicker-SKCurrencyPickerView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_NAME = SKCurrencyPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -546,6 +564,85 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		952734A53531A17B7D8E7CC09E929455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9571C7C282D867368EC660456181C4 /* SKCurrencyPickerView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SKCurrencyPickerView/SKCurrencyPickerView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SKCurrencyPickerView/SKCurrencyPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKCurrencyPickerView/SKCurrencyPickerView.modulemap";
+				PRODUCT_MODULE_NAME = SKCurrencyPickerView;
+				PRODUCT_NAME = SKCurrencyPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD57D0ABCF8D27B0A9002BC48E5A127E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEFAD2350ACC8A082343E39B57E796A8 /* SKCurrencyPickerView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SKCurrencyPickerView/SKCurrencyPickerView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SKCurrencyPickerView/SKCurrencyPickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKCurrencyPickerView/SKCurrencyPickerView.modulemap";
+				PRODUCT_MODULE_NAME = SKCurrencyPickerView;
+				PRODUCT_NAME = SKCurrencyPickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -640,11 +737,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D37BDA69BE696A3430C5D0845F0BB4C2 /* Build configuration list for PBXNativeTarget "SKCurrencyPickerView" */ = {
+		A974EC721437B359483598F183F1E060 /* Build configuration list for PBXNativeTarget "SKCurrencyPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7434C8DA7CD62D8BB95B4489981161FB /* Debug */,
-				16E18178B82C34FB4656A8A9703CEBCE /* Release */,
+				952734A53531A17B7D8E7CC09E929455 /* Debug */,
+				CD57D0ABCF8D27B0A9002BC48E5A127E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -654,6 +751,15 @@
 			buildConfigurations = (
 				EDF03844AFB6579DA3BCB03B67636483 /* Debug */,
 				E7507CC8FE10188E0A8982CB41A21C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5EC31348D958D31D88763527B2E9DC2 /* Build configuration list for PBXNativeTarget "SKCurrencyPickerView-SKCurrencyPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822E7E7DF62999A7977C156F1DBA23B5 /* Debug */,
+				4F9DAFD5BC305624049A9ABE44DCB4EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

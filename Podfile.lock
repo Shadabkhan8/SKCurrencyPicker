@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: SKCurrencyPicker/.
 
 SPEC CHECKSUMS:
-  SKCurrencyPickerView: c55b8a6a5a999c704acc92fd52bbfabb34c96ebb
+  SKCurrencyPickerView: 8c0d6d22752d77a908ead254bd7adac23068da4a
 
 PODFILE CHECKSUM: c4922ee78fe75362ceaeb11cecc97b83641e3928
 
