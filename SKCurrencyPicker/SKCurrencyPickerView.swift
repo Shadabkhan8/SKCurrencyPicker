@@ -8,41 +8,72 @@
 import SwiftUI
 
 public struct SKCurrencyPickerView: View {
-    @State var isPresentingCurrencySheet = false
-    @StateObject var viewModel = CurrencyViewModel()
+    @State private var isPresentingCurrencySheet = false
+    @StateObject private var viewModel = CurrencyViewModel()
     
-    public init() { }
-    
+    public init() {}
+
     public var body: some View {
-        if #available(iOS 16.0, *) {
-            NavigationStack {
-                VStack(spacing: 20) {
-                    // Show selected currency details
-                    Spacer()
-                    if let selectedCurrency = viewModel.selectedAllCurrency {
-                        VStack (alignment: .leading) {
-                            Text("Currency: \(selectedCurrency.name)")
-                            Text("Code: \(selectedCurrency.currencyCode)")
-                            Text("Symbol: \(selectedCurrency.emoji)")
+        NavigationView {
+            VStack {
+                Spacer()
+                
+                if let selectedCurrency = viewModel.selectedAllCurrency {
+                    VStack(alignment: .leading, spacing: 12) {
+                        HStack(spacing: 16) {
+                            Text(selectedCurrency.emoji)
+                                .font(.system(size: 48))
+                            
+                            VStack(alignment: .leading) {
+                                Text(selectedCurrency.name)
+                                    .font(.title2)
+                                    .fontWeight(.semibold)
+                                
+                                Text("Code: \(selectedCurrency.currencyCode)")
+                                    .font(.subheadline)
+                                    .foregroundColor(.secondary)
+                            }
                         }
-                        .padding()
-                        .background(Color.gray.opacity(0.1))
-                        .cornerRadius(12)
-                    } else {
-                        Text("No currency selected")
-                            .foregroundColor(.secondary)
+                        
+                        Divider()
+                        
+                        Text("Symbol: \(selectedCurrency.emoji)")
+                            .font(.headline)
                     }
-                    
-                    Button("Select Currency") {
-                        isPresentingCurrencySheet = true
-                    }
-                    .buttonStyle(.borderedProminent)
                     .padding()
-                    Spacer()
-                    
+                    .frame(maxWidth: .infinity)
+                    .background(Color(.systemBackground))
+                    .cornerRadius(16)
+                    .shadow(color: Color.black.opacity(0.1), radius: 8, x: 0, y: 4)
+                    .padding(.horizontal)
+                } else {
+                    Text("No currency selected")
+                        .foregroundColor(.secondary)
+                        .padding()
                 }
-                .navigationTitle("Selected Currency")
+
+                Spacer()
+                
+                Button(action: {
+                    isPresentingCurrencySheet = true
+                }) {
+                    HStack {
+                        Image(systemName: "globe")
+                        Text("Select Currency")
+                            .fontWeight(.bold)
+                    }
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(12)
+                    .shadow(radius: 4)
+                }
+                .padding(.horizontal)
+                
+                Spacer()
             }
+            .navigationBarTitle("Currency Picker", displayMode: .inline)
             .sheet(isPresented: $isPresentingCurrencySheet) {
                 if let allCountries = viewModel.allCurrency {
                     CurrencyPickerView(
@@ -50,11 +81,12 @@ public struct SKCurrencyPickerView: View {
                         selectedCurrency: $viewModel.selectedAllCurrency,
                         isPresent: $isPresentingCurrencySheet
                     )
+                } else {
+                    ProgressView("Loading...")
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .background(Color(.systemBackground))
                 }
             }
-            .padding()
-        } else {
-            // Fallback on earlier versions
         }
     }
 }

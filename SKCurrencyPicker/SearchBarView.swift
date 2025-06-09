@@ -8,40 +8,36 @@
 import SwiftUI
 
 public struct SearchBarView: View {
-    
     @Binding var value: String
     let isAnimating: Bool
-    @State var color = Color.blue
+    var color: Color = .white
 
     public var body: some View {
-        HStack(alignment: .center, spacing: 12) {
+        HStack {
             Image(systemName: "magnifyingglass")
-                .resizable()
-                .frame(width: UIDevice.current.userInterfaceIdiom == .pad ? 24 : 20,
-                       height: UIDevice.current.userInterfaceIdiom == .pad ? 24 : 20)
-                .padding(.leading, 20)
-                .foregroundColor(Color.gray)
-            
-            TextField("Search", text: $value)
-                .textFieldStyle(PlainTextFieldStyle())
-                .font(.system(size: 16, weight: .regular))
-                .disabled(isAnimating)
-                .autocorrectionDisabled(true)
+                .foregroundColor(.gray)
+
+            if #available(iOS 15.0, *) {
+                TextField("Search currencies...", text: $value)
+                    .disabled(isAnimating)
+                    .autocorrectionDisabled(true)
+                    .textInputAutocapitalization(.characters)
+                    .font(.system(size: 16))
+                    .foregroundColor(.primary)
+            } else {
+                // Fallback on earlier versions
+            }
 
             if isAnimating {
                 ProgressView()
                     .progressViewStyle(CircularProgressViewStyle())
-                    .foregroundColor(Color.gray)
-                    .padding(.trailing, 10)
+                    .padding(.trailing, 4)
             }
         }
-        .frame(maxWidth: .infinity,
-               maxHeight: UIDevice.current.userInterfaceIdiom == .pad ? 98 : 56,
-               alignment: .leading)
-        .border(Color.green, width: 1)
-        .background(color)
-        .padding([.leading, .trailing], UIDevice.current.userInterfaceIdiom == .pad ? 36 : 24)
-        .padding(.top, 24)
-        
+        .padding()
+        .background(Color(.systemGray6))
+        .cornerRadius(12)
+        .shadow(color: .black.opacity(0.05), radius: 4, x: 0, y: 2)
+        .padding(.horizontal)
     }
 }

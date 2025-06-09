@@ -8,5 +8,4 @@
 public enum PickerOrientation {
     case vertical
     case horizontal
-
 }

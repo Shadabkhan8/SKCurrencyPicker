@@ -21,7 +21,7 @@ public class CurrencyViewModel: ObservableObject {
     
     let minimumDate: PartialRangeThrough<Date>
     
-    public init(minAge: Int = 18) {
+    public init() {
         let minimumDate = Calendar.current.date(byAdding: .year, value: 0, to: Date())
         self.minimumDate = ...minimumDate!
         fetchCountryData()
